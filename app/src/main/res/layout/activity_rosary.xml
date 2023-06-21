@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rosary"
+    android:background="@color/bk_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mespaha_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="100dp"
+            android:textAlignment="center"
+            android:text="0"
+            android:textSize="70sp"
+            android:textColor="@color/main_green"/>
+
+        <Button
+            android:id="@+id/mespaha_button"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="100dp"
+            android:background="@drawable/round_btn"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-201dp"
+            android:layout_marginLeft="300dp"
+            android:background="@drawable/round_btn"
+            android:onClick="onClick2" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

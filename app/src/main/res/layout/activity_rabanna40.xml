@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rabanna40"
+    android:background="@color/bk_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_button"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/main_brown"
+            android:layout_marginTop="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginVertical="20dp">
+
+            <Button
+                android:id="@+id/player_rabanna40"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:onClick="play"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                app:icon="@drawable/ic_play"
+                android:background="@drawable/round_btn"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:onClick="pause"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                app:icon="@drawable/ic_baseline_pause_24"
+                android:background="@drawable/round_btn"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:onClick="stop"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                app:icon="@drawable/ic_baseline_stop_24"
+                android:background="@drawable/round_btn"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_1"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en1"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_3"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en3"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_4"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en4"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_5"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en5"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_6"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en6"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_7"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en7"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_8"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en8"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_9"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en9"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_10"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en10"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_11"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en11"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_12"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en12"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_13"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en13"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_14"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en14"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_15"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en15"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_16"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en16"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_17"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en17"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_18"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en18"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_19"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en19"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_20"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en20"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_21"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en21"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_22"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en22"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_23"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en23"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_24"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en24"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_25"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en25"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_26"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en26"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_27"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en27"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_28"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en28"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_29"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en29"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_30"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en30"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_31"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en31"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_32"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en32"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_33"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en33"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_34"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en34"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_35"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en35"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_36"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en36"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_37"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en37"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_38"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en38"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_39"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en39"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_40"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rabanna40_en40"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+</ScrollView>

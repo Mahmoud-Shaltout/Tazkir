@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".afterSalat_zikr"
+    android:background="@color/bk_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aftarsalat_button"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/main_brown"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat1"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en1"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat3"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en3"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat4"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en4"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat5"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en5"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat6"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en6"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat7"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afterSalat_en7"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/amiri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -10,10 +10,98 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.Tazkir"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".missed_rakah"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".rabanna40"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".hajj"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".roqia"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".about"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".rosary"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".afterSalat_zikr"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".wakup_zikr"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sleep_zikr"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".masaa_zikr"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sabah_zikr"
+            android:exported="false"
+            android:parentActivityName=".NextActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NextActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -32,6 +120,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
